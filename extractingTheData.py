@@ -4,5 +4,7 @@ students = [
 ]
 
 for x in students:
-    for y in x:
-        print(y)
+    print(x[0])
+    for y in x[1]:
+        print("-" + y)
+    print()
