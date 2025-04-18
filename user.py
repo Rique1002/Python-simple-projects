@@ -12,7 +12,6 @@ class user:
         print("Full Name: " + self.firstName + " " + self.lastName)
         print("Likes: " + str(self.likesCount))
         print("Friends")
-        
         for friend in self.friendsName:
             print(" -" + friend )
             
